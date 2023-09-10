@@ -1,0 +1,47 @@
+.white {
+    color: #fff;
+}
+
+.vh-80{
+    height: 80vh;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.center{
+    margin: 0 auto;
+}
+
+
+.br-50{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+.vh-10{
+    height: 10vh;
+}
+
+.w-5-h-50{
+    height: 500px;
+    width: 500px;
+}
+
+
+@media (max-width:720px){
+    .vh-md-50{
+        height: 50vh;
+    }
+}
+
+@media (min-width:576px){
+    .vh-md-50{
+        height: 50vh;
+    }
+}
