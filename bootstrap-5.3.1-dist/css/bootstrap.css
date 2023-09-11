@@ -8428,6 +8428,10 @@ textarea.form-control-lg {
   font-size: 1rem !important;
 }
 
+.fs-48{
+  font-size: 48px !important;
+}
+
 .fst-italic {
   font-style: italic !important;
 }
@@ -8466,6 +8470,9 @@ textarea.form-control-lg {
 
 .lh-1 {
   line-height: 1 !important;
+}
+.lh-64{
+  line-height: 64px !important;
 }
 
 .lh-sm {
