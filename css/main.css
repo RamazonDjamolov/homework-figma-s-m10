@@ -3,12 +3,55 @@
 .f-s{
     font-size: 48px !important;
 }
+.btn-e{
+    background-color: #EEEEEE;
+}
+
 @media (min-width: 1400px){
 .f-xxl-s-64{font-size: 65px !important;}
+.w-xl-50{
+    width: 50% !important;
 }
+}
+
 /* xl */
 @media (min-width: 1200px) {
 .f-xl-s-48{
 font-size: 48 !important;
 }
+}
+
+.right-text{
+    max-width: 776px;
+}
+.contact-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-us input {
+    padding: 26px 33px;
+    max-width: 450px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #8F95A5;
+    font-size: 16px;
+    outline: none;
+}
+
+.contact-us img {
+    max-width: 477px;
+    height: 429px;
+}
+
+@media (max-width: 380px) {
+    .yoq_item {
+        display: none !important;
+    }
+
+    .bor_item {
+        display: block !important;
+    }
 }
